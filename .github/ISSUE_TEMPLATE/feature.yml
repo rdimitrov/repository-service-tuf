@@ -15,10 +15,10 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: services
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Affected services
+      description: Please select which services do you think will be impacted.
       options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
