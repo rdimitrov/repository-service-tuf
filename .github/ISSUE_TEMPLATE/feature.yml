@@ -19,7 +19,7 @@ body:
     attributes:
       label: Services it relates to
       description: Please select which services do you think will be impacted.
-      multiple: true
+#       multiple: true
       options:
        - repository-service-for-tuf
        - repository-service-for-tuf-cli
