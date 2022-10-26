@@ -1,7 +1,7 @@
 name: 🪲 Feature
-description: File a bug report
-title: "Bug: "
-labels: ["bug"]
+description: File a feature report
+title: "Feature: "
+labels: ["feature"]
 body:
   - type: markdown
     attributes:
