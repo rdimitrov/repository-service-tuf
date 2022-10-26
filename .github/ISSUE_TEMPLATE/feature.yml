@@ -27,13 +27,13 @@ body:
        - repository-service-for-tuf-worker
     validations:
       required: true
-# - type: textarea
-#     id: tasks
-#     attributes:
-#       label: Related tasks
-#       description: Please provide a reference to the tasks that need to completed for that feature.
-#     validations:
-#       required: false
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Related tasks
+      description: Please provide a reference to the tasks that need to completed for that feature.
+    validations:
+      required: false
 #   - type: textarea
 #     id: other
 #     attributes:
