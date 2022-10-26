@@ -21,8 +21,8 @@ body:
      multiple: true
      options:
        - repository-service-for-tuf
-       - repository-service-for-tuf-cli
-       - repository-service-for-tuf-api
-       - repository-service-for-tuf-worker
+#        - repository-service-for-tuf-cli
+#        - repository-service-for-tuf-api
+#        - repository-service-for-tuf-worker
    validations:
      required: true
