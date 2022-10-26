@@ -1,50 +1,44 @@
-name: Feature
-description: File a feature report
-title: "Feature: "
-labels: ["feature"]
+name: 🪲 Bug
+description: File a bug report
+title: "Bug: "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature report!
+        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: description
     attributes:
-      label: What is the feature about?
-      description: Please provide a detailed description of the feature.
-    validations:
-      required: true
- - type: dropdown
-    id: services
-    attributes:
-      label: Please select which services do you think will be impacted.
-      multiple: true
-      options:
-        - repository-service-for-tuf
-        - repository-service-for-tuf-cli
-        - repository-service-for-tuf-api
-        - repository-service-for-tuf-worker
+      label: What happened?
+      description: Please provide a detailed description of the bug. Also tell us, what did you expect to happen?
     validations:
       required: true
   - type: textarea
-    id: tasks
+    id: reproduction
     attributes:
-      label: Related tasks
-      description: Please provide a reference to the tasks that need to completed for that feature.
+      label: What steps did you take?
+      description: Please provide a clear and concise description steps that can be used to reproduce the problem.
     validations:
       required: false
   - type: textarea
-    id: other
+    id: expectations
     attributes:
-      label: References
-      description: Please provide any other references that are related to this feature.
+      label: What behavior did you expect?
+      description: Please provide a description of what was expected.
     validations:
       required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.rst)
+      description: By submitting this bug, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.rst)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
