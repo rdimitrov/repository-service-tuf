@@ -7,3 +7,10 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this feature report!
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the feature about?
+      description: Please provide a detailed description of the feature.
+    validations:
+      required: true 
