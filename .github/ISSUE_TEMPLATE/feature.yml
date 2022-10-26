@@ -41,11 +41,11 @@ body:
       description: Please provide any other references that are related to this feature.
     validations:
       required: false
-#   - type: checkboxes
-#     id: terms
-#     attributes:
-#       label: Code of Conduct
-#       description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.rst)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.rst)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true 
