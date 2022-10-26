@@ -34,13 +34,13 @@ body:
       description: Please provide a reference to the tasks that need to completed for that feature.
     validations:
       required: false
-#   - type: textarea
-#     id: other
-#     attributes:
-#       label: References
-#       description: Please provide any other references that are related to this feature.
-#     validations:
-#       required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: References
+      description: Please provide any other references that are related to this feature.
+    validations:
+      required: false
 #   - type: checkboxes
 #     id: terms
 #     attributes:
