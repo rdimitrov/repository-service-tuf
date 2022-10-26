@@ -19,7 +19,7 @@ body:
     attributes:
       label: Services it relates to
       description: Please select which services do you think will be impacted.
-#       multiple: true
+      multiple: true
       options:
        - repository-service-for-tuf
        - repository-service-for-tuf-cli
@@ -27,25 +27,25 @@ body:
        - repository-service-for-tuf-worker
     validations:
       required: true
-- type: textarea
-    id: tasks
-    attributes:
-      label: Related tasks
-      description: Please provide a reference to the tasks that need to completed for that feature.
-    validations:
-      required: false
-  - type: textarea
-    id: other
-    attributes:
-      label: References
-      description: Please provide any other references that are related to this feature.
-    validations:
-      required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.rst)
+# - type: textarea
+#     id: tasks
+#     attributes:
+#       label: Related tasks
+#       description: Please provide a reference to the tasks that need to completed for that feature.
+#     validations:
+#       required: false
+#   - type: textarea
+#     id: other
+#     attributes:
+#       label: References
+#       description: Please provide any other references that are related to this feature.
+#     validations:
+#       required: false
+#   - type: checkboxes
+#     id: terms
+#     attributes:
+#       label: Code of Conduct
+#       description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.rst)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true 
