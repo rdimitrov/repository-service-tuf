@@ -13,16 +13,26 @@ body:
       label: What is the feature about?
       description: Please provide a detailed description of the feature.
     validations:
-      required: true 
- - type: dropdown
-   id: services
-   attributes:
-     label: Please select which services do you think will be impacted.
-     multiple: true
-     options:
-       - repository-service-for-tuf
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+#  - type: dropdown
+#    id: services
+#    attributes:
+#      label: Please select which services do you think will be impacted.
+#      multiple: true
+#      options:
+#        - repository-service-for-tuf
 #        - repository-service-for-tuf-cli
 #        - repository-service-for-tuf-api
 #        - repository-service-for-tuf-worker
-   validations:
-     required: true
+#    validations:
+#      required: true
